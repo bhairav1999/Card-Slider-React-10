@@ -1,0 +1,30 @@
+img {
+  height: 150px;
+  width: 100%;
+}
+
+.div {
+  background: gray;
+  display: flex;
+  width: 15%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.main-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 40%;
+}
+
+@media (max-width: 768px) {
+  .div {
+    width: 35%;
+  }
+}

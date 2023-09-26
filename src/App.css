@@ -1,0 +1,15 @@
+.React-slider-title {
+  display: flex;
+  margin-top: 230px;
+  justify-content: center;
+  font-size: 45px;
+}
+
+@media (max-width: 768px) {
+  .React-slider-title {
+    display: flex;
+    margin-top: 180px;
+    justify-content: center;
+    font-size: 45px;
+  }
+}
